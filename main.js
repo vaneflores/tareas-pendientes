@@ -49,9 +49,9 @@ function tareaEliminada(element) {
     
 };
 botonAgregar.addEventListener("click", () => {
-    const tareas = input.value;
+    const tarea = input.value;
     if (tarea) {
-        agregarTareas(tarea, id, false, false)
+        agregarTarea(tarea, id, false, false)
         LIST.push({
             nombre: tarea,
             id: id,
